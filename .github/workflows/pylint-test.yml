@@ -20,6 +20,7 @@ jobs:
         python-version: '3.x'
         
     - name: pylint
+      continue-on-error: True
       run: |
         sudo apt-get install pylint
         pylint ./src/hello.py
