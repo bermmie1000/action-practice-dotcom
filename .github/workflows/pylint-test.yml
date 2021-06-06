@@ -22,7 +22,7 @@ jobs:
     - name: pylint
       run: |
         pip install pylint
-        pylint ./src/ >> ./pylint-log.txt
+        pylint ./src/
 #        (date & pylint ./src/) >> ./pylint-log.txt
     
 #    - name: git commands
