@@ -21,7 +21,7 @@ jobs:
         
     - name: pylint
       run: |
-        pip install pylint
+        sudo apt-get install pylint
         pylint ./src/
 #        (date & pylint ./src/) >> ./pylint-log.txt
     
