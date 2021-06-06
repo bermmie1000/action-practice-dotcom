@@ -22,13 +22,12 @@ jobs:
     - name: pylint
       continue-on-error: True
       run: |
-        sudo apt-get install pylint
-        pylint ./src/hello.py
-#        (date & pylint ./src/) >> ./pylint-log.txt
+        pip install pylint
+        (date & pylint ./src/) >> ./pylint-log.txt
     
-#    - name: git commands
-#      run: |
-#        git add .
-#        git commit -m "pylint-log update"
-#        git push
+    - name: git commands
+      run: |
+        git add .
+        git commit -m "pylint-log update"
+        git push
         
