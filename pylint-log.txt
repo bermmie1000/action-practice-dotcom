@@ -20,3 +20,14 @@ src/hello.py:3:16: W0621: Redefining name 'text' from outer scope (line 1) (rede
 ------------------------------------
 Your code has been rated at -2.50/10
 
+Sun Jun  6 23:14:13 UTC 2021
+************* Module src.hello
+src/hello.py:6:0: C0304: Final newline missing (missing-final-newline)
+src/hello.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+src/hello.py:1:0: C0103: Constant name "text" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/hello.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/hello.py:3:16: W0621: Redefining name 'text' from outer scope (line 1) (redefined-outer-name)
+
+------------------------------------
+Your code has been rated at -2.50/10
+
