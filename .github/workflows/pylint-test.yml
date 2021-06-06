@@ -27,7 +27,8 @@ jobs:
     
     - name: git commands
       run: |
-        git remote set-url origin ${{ secrets.ssh }}
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
         git add .
         git commit -m "pylint-log update"
         git push
